@@ -1,0 +1,23 @@
+<div class="sup">
+  <div><label class="lb">اسم المورد</label><input id="sn" autocomplete="off" enterkeyhint="next"></div>
+  <div><label class="lb">هاتف المورد</label><input id="sp" inputmode="tel" autocomplete="off" enterkeyhint="next"></div>
+  <button id="pick" class="pickbtn" aria-label="جهات الاتصال"><svg viewBox="0 0 48 48" width="30" height="30" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="16" r="7"/><path d="M5 40c0-8 6-13 13-13s13 5 13 13"/><path d="M33 10a7 7 0 0 1 0 13M37 28c4 2 7 6 7 12"/></svg></button>
+</div>
+<div class="entry">
+  <div class="e1">
+    <div><label class="lb">الرقم</label><input id="fSku" inputmode="numeric" autocomplete="off" enterkeyhint="next"></div>
+    <div class="rel"><label class="lb">اسم المنتج</label><input id="fName" autocomplete="off" enterkeyhint="next"><div id="sug" class="sugbox" hidden></div></div>
+  </div>
+  <div class="e2">
+    <div><label class="lb">الكمية</label><input id="fQty" inputmode="decimal" autocomplete="off" enterkeyhint="next"></div>
+    <div><label class="lb">سعر الشراء</label><input id="fBuy" inputmode="decimal" autocomplete="off" enterkeyhint="next"></div>
+    <div><label class="lb">سعر البيع</label><input id="fSell" inputmode="decimal" autocomplete="off" enterkeyhint="done"></div>
+    <button id="addBtn" class="gold addbtn">إضافة</button>
+  </div>
+  <div id="hint" class="phint"></div>
+</div>
+<div class="plist" id="plist"></div>
+<div class="bar">
+  <button id="pay" disabled>دفع</button>
+  <div class="tot"><small>الإجمالي</small><div id="total">0</div></div>
+</div>

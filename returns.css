@@ -1,0 +1,4 @@
+.rl{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.rl small{display:block;color:var(--mut);font-size:12px;margin-top:2px}
+.box .rq{width:84px;margin:0;flex:none;text-align:center;background:var(--field);border:1px solid var(--line);border-radius:10px;padding:9px;font-size:16px;color:inherit}.rq:disabled{opacity:.35}
+.md{font-size:10px;color:var(--gold);border:1px solid var(--gold);border-radius:6px;padding:0 4px;margin-inline-start:6px;font-style:normal}
